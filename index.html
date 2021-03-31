@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Taiki.com</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css?20190326">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js" defer></script>
+  <script src="./assets/js/script.js?20190326" defer></script>
+
+</head>
+<body>
+  <div class="wrapper">
+    <header id="js-header" class="header">
+      <h1 class="header-ttl">
+        <img src="./assets/img/top-logo.png" srcset="" alt="Taiki Corp.">
+      </h1>
+      <nav class="header-nav">
+        <button id="js-toggle" class="header-burger" aria-label="menu">
+          <span class="header-burgerInline"></span>
+          <span class="header-burgerInline"></span>
+          <span class="header-burgerInline"></span>
+        </button>
+        <ul class="header-navList">
+          <li class="header-navItem"><a href="#news" class="header-navLink js-navLink">News</a></li>
+          <li class="header-navItem"><a href="#results" class="header-navLink js-navLink">Works</a></li>
+          <li class="header-navItem"><a href="#comments" class="header-navLink js-navLink">Comments</a></li>
+        </ul>
+      </nav>
+      <div id="js-overlay" class="header-overlay"></div>
+    </header><!-- /.header -->
+
+    <div id="js-hero" class="hero">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <h2 class="hero-ttl">はじめまして！<br>立命館大学の山下 太基と申します。</h2>
+          <p class="hero-txt">大学生兼フリーランスweb制作者として活動しています。<br>顔写真等はComments欄に記載しています。</p>
+          <p class="hero-txt">メールアドレス：taikiyamashita.work@gmail.com          </p>
+        </div>
+      </div>
+      
+    </div><!-- /.hero -->
+
+    <main>
+    
+      <section id="service" class="service">
+        <h2 class="util-ttl">Skills</h2>
+        <div class="service-inner">
+          <dl class="service-list">
+            <div class="service-item">
+              <dt>HTML/CSS/Sass/jQuery<br>ITパスポート/基本情報技術者<br></dt>
+              <dd>・2020/2月から独学にて1日3~8時間学習
+                <br> ・これらを使用し、主にweb制作分野においてフリーランスとして案件をいただいております。
+                <br>・webの理解のため資格も取得
+              </dd>
+                
+            </div>
+            <div class="service-item">
+              <dt>Javascript/Ruby/Rails/<br>git/SQL/docker
+                <br></dt>
+              <dd>・独学で1日 6~12h学習
+                <br>・2020/8にハッカソンでチーム開発も経験
+                <br>・成果物の不便さを感じフロントエンド強化のためJS学習開始
+              </dd>
+            </div>
+            
+          </dl>
+        </div>
+      </section><!-- /.service -->
+
+      <section id="results" class="results">
+        <h2 class="util-ttl">Works</h2>
+        <div class="results-container swiper-container">
+          <ul class="results-list swiper-wrapper">
+            <li class="results-item swiper-slide">
+              <a href="https://yamashita-taiki.github.io/new_noazami-ssite/" class="results-itemLink" target="_blank">
+              <a href="https://yamashita-taiki.github.io/new_noazami-ssite/" class="results-itemLink" target="_blank">
+                <figure class="results-itemFig">
+                  <img src="./assets/img/FireShot Capture 001 - noazami - yamashita-taiki.github.io.png" alt="noazamiの画像">
+                </figure>
+                <div class="results-itemLinkInner">
+                  <h3 class="results-itemTtl">バンドグループnoazamiのHP</h3>
+                  <p class="results-itemTxt">HTML/CSS jQuery bootstrapで作成しました。 <br>デザイン〜コーディングを担当し、3日で完成</p>
+                </div>
+              </a>
+            </li>
+            <li class="results-item swiper-slide">
+              <a href="#" class="results-itemLink" target="_blank">
+                <figure class="results-itemFig">
+                  <img src="./assets/img/FireShot Capture 036 - Taiki.com - 127.0.0.1.png"　alt="画像">
+                </figure>
+                <div class="results-itemLinkInner">
+                  <h3 class="results-itemTtl">このサイトです。</h3>
+                  <p class="results-itemTxt">HTML/CSS jQuery bootstrapで作成しました。</p>
+                </div>
+              </a>
+            </li>
+            <li class="results-item swiper-slide">
+              <a href="https://cryptic-spire-24646.herokuapp.com" class="results-itemLink" target="_blank">
+                <figure class="results-itemFig">
+                  <img src="./assets/img/FireShot Capture 025 - ReviewApp - cryptic-spire-24646.herokuapp.com.png">
+                </figure>
+                <div class="results-itemLinkInner">
+                  <h3 class="results-itemTtl">Ruby on Railsで作成したものです。</h3>
+                  <p class="results-itemTxt">参考書のレビューサイトです<br>Rails/JavaScript/git/github/html/css/sassで作成
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="results-item swiper-slide">
+              <a href="https://d.kuku.lu/a154472184" class="results-itemLink" target="_blank">
+              <a href="https://d.kuku.lu/a154472184" class="results-itemLink" target="_blank">
+                <figure class="results-itemFig">
+                  <img src="./assets/img/スクリーンショット 2020-09-07 0.00.49.png" alt="画像">
+                </figure>
+                <div class="results-itemLinkInner">
+                  <h3 class="results-itemTtl">チームで開発したスマホアプリです。</h3>
+                  <p class="results-itemTxt">Swift, Ruby on Rails, Dockerで作成しました。<br>READMEに詳しく記載しております。
+                </div>
+              </a>
+            </li>
+            <li class="results-item swiper-slide">
+              <a href="#" class="results-itemLink" target="_blank">
+                <figure class="results-itemFig">
+                  <img src="./assets/img/slide1.png" srcset="./assets/img/slide1.png 1x, ./assets/img/slide1@2x.png 2x" alt="">
+                </figure>
+                <div class="results-itemLinkInner">
+                  <h3 class="results-itemTtl">Coming Soon...</h3>
+                  <p class="results-itemTxt">更にスキルを身に着け、制作したいと考えております</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="results-pagination swiper-pagination"></div>
+        <div class="util-linkBox">
+          <a href="#" class="util-link mod-light">VIEW ALL</a>
+        </div>
+      </section><!-- /.results -->
+
+      <div class="bg-wrapper">
+        <section id="comments" class="comments">
+          <div class="comments-inner">
+            <div class="comments-box">
+              <h2 class="util-ttl">Comments</h2>
+              <ul class="comments-list">
+                <li class="comments-item">
+                  ・エンジニアを志し2020/2月から独学開始 <br>
+                </li>
+                 <p class="txt_bold">・京都のweb制作会社と業務委託にて様々な案件に参画し下記のような評価をいただいております。</p> 
+                 <p class="txt_bold2"> ＜いただいたお声＞</p>
+                  <p class="txt_bold3">”このようにご丁寧にお仕事いただくこと、なかなかできることではないと存じます。”</p>
+                  
+                 <p class="txt_bold3">”山下様のお人柄がよくわかります。ありがとうございました。”</p> 
+                  
+                 <p class="txt_bold3">”スムーズに進行していただきありがとうございました。大変助かりました。”</p> 　
+                  
+                  <p class="txt_bold3">”データ確認致しました。問題ない状態になってきました。さすがです。”</p>　
+                <!-- </li> -->
+              </ul>
+            </div>
+            <figure class="comments-fig"><img src="./assets/img/自分.jpg" alt=""></figure>
+          </div>
+        </section><!-- /.comments -->
+
+    <footer class="footer">
+      <a href="#" class="footer-totopLink"></a>
+      <div class="footer-inner">
+        <nav class="footer-nav">
+          <ul class="footer-navList">
+            <li class="footer-navItem">
+              <a href="#" class="footer-navLink">サイトマップ</a>
+            </li>
+            <li class="footer-navItem">
+              <a href="#" class="footer-navLink">個人情報保護方針</a>
+            </li>
+            <li class="footer-navItem">
+              <a href="#" class="footer-navLink">プライバシーポリシー</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer-company">
+          <div class="hero-txt">メールアドレス：taikiyamashita.work@gmail.com</div>
+          <small class="footer-copyright">©︎ Taiki Landing page Sample.</small>
+        </div>
+      </div>
+    </footer><!-- /.footer -->
+  </div><!-- /.container -->
+</body>
+</html>
